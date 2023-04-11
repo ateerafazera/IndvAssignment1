@@ -1,26 +1,12 @@
-#include <stdlib.h>
-#include <unistd.h>
 #include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
 
-int main(int argc, char **argv){
+int main(){
 
-	int pid;
-
-	switch(pid = fork()){
-	case 0:
+	fork();
 		
-		printf("I am the child process: pid=%d\n",getpid());
-		break;
+		printf("Salam Dunia\n");
 
-	default:
- 
-		printf("I am the parent process: pid=%d,child pid=%d\n",getpid(),pid);
-		break;
-
-	case -1: 
-
-		perror("fork");
-		exit(1);
-	}
-	exit(0);
+	return 0;
 }
