@@ -269,3 +269,174 @@ cat lab3a | grep “name" | tee file2.txt | wc –l
 ifconfig | awk '{match($0,/[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+/); ip = substr($0,RSTART,RLENGTH); print ip}'
 ls -l | grep init
 man grep
+eval "$(ssh-agent)"
+ssh-add ~/.ssh/id_ed25519
+cat ~/.ssh/id_ed25519.pub
+git clone git@github.com:ateerafazera/Lab1_ateerafazera.git
+git add.
+git add .
+git remote add https://github.com/ateerafazera/Lab1_ateerafazera.git
+git push origin main
+git submodule git@github.com:ateerafazera/Lab1_ateerafazera.git
+git init
+git add .
+git commit -m "Add all my files"
+git remote add origin https://github.com/ateerafazera/Lab1_ateerafazera.git
+git push origin main
+git init
+git status
+git commit -m "first commit"
+git remote add origin https://github.com/ateerafazera/Lab1_ateerafazera.git
+git push -u origin main
+git status
+sudo dnf repolist all
+apt-add-repository
+dnf repolist
+sudo apt install dnf
+dnf repolist
+git add .
+git commit -m "add existing file"
+git push origin main
+it push origin main
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+I've checked stackoverflow a lot trying to figure out why I could be receiving this error because I do have a repo on github for what I am trying to push to. I even regenerated my ssh key and added it to github. I also see:
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+When I try to add the repo remotely I see:
+
+$ git remote add origin git@github.com:<username>/<reponame>.git
+> fatal: remote origin already exists.
+
+$ git push
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+git push --set-upstream origin master
+Then I get the error
+
+When I try
+
+ssh -T git@github.com
+
+
+
+I've checked stackoverflow a lot trying to figure out why I could be receiving this error because I do have a repo on github for what I am trying to push to. I even regenerated my ssh key and added it to github. I also see:
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+When I try to add the repo remotely I see:
+
+$ git remote add origin git@github.com:<username>/<reponame>.git
+> fatal: remote origin already exists.
+
+$ git push
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+git push --set-upstream origin master
+Then I get the error
+
+When I try
+
+ssh -T git@github.com
+
+
+
+ssh -T git@github.com
+git remote add origin git@github.com:ateerafazera/Lab1_ateerafazera.git
+git push origin main
+git pull origin main
+git push origin main
+git init
+git add .
+git commit -m "Add all my files"
+git remote add origin git@github.com:ateerafazera/Lab1_ateerafazera.git
+git pull origin main
+git config --global
+sudo poweroff
+sudo apt-get update
+sudo apt-get install git
+git --version
+git config --global user.name "ateerafazera"
+git config --global user.email "ateerafazira58@gmail.com"
+git init
+git add .
+git commit -m "Add all my files"
+git remote add origin https://github.com/ateerafazera/Lab1_2022660644.git
+git push origin master
+git push origin main
+failed to push some refs to 'github.com:ateerafazera/Lab1_2022660644.git'
+git remote add origin https://github.com/ateerafazera/Lab1_2022660644.git
+git branch -M main
+git push -u origin main
+ssh: connect to host github.com port 22: Connection refused
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
+and the repository exists.
+sudo apt install 
+git remote add origin https://github.com/ateerafazera/Lab1_2022660644.git
+git push origin main
+cat ~/.ssh/id_rsa.pub
+open ~/.ssh
+sudo apt install xdg-utils
+sudo apt-grt update
+sudo apt-get update
+sudo apt install xdg-utils
+sudo --fi-missing
+open ~/.ssh
+ssh -keygen -t rsa -C "ateerafazira58@gmail.com"
+ssh-keygen -t rsa -C "ateerafazira58@gmail.com"
+git remote set-url origin https://<token>@github.com/<user>/<repo>.git
+mk fir
+mk dir
+mkdir
+mkdir --help
+get init
+git init
+git commit -m "2nd attempt"
+git add .
+git commit -m "Add all my files"
+git remote add origin git@github.com:ateerafazera/Lab1_2022660644.git
+git remote add origin git@github.com:ateerafazera/Lab1_ateerafazera.git
+git remote add origin https://github.com/ateerafazera/Lab1_ateerafazera.git
+git push orifin main
+git push origin main
+git remote add origin https://github.com/ateerafazera/Lab1_ateerafazera.git
+git push origin main
+ssh -A serverA 'bash -s' < deploy.sh
+ls
+-type d
+d
+dpkg -i
+deb-get
+ls /
+root
+cd root
+ls -a
+ssh-keygen -t ed25519 -C "ateerafazira58@gmail.com"
+start the ssh-agent in the background
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+clip < ~/.ssh/id_ed25519.pub
+sudo apt install geomview
+clip < ~/.ssh/id_ed25519.pub
+shh-add ~/.ssh/id_ed25519
+sudo dpkg -i /path/to/deb/file
+sudo apt-get install -f
+sudo apt install ./name.deb
+sudo apt install /path/to/package/name.deb
+shh-add ~/.ssh/id_ed25519
+sudo apt install ./teamviewer_amd64.deb
+sudo apt install gdebi
+shh-add ~/.ssh/id_ed25519
+ssh-add -l
+shh-add ~/.ssh/id_ed25519
+ssh-agent bash
